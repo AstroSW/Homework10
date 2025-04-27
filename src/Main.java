@@ -18,10 +18,8 @@ public class Main {
 
         // Задача 3
         System.out.println("Задача 3");
-        firstName = "Семён";
-        middleName = "Семёнович";
-        lastName = "Иванов";
-        fullName = lastName +" "+ firstName +" "+ middleName;
-        System.out.println("Данные Ф. И. О. сотрудника — "+ fullName.replace('ё','е'));
+        fullName = "Иванов Семён Семёнович";
+        fullName = fullName.replace('ё', 'e');
+        System.out.println("Данные Ф. И. О. сотрудника — "+ fullName);
     }
 }
